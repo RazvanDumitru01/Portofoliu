@@ -1,0 +1,16 @@
+ //lab03 ex4
+import java.util.Scanner;
+
+public class lab_03 {
+	static Scanner in = new Scanner(System.in);
+public static void main(String args[]) {
+	
+	System.out.println("Introduceti un numar: ");
+	int n = in.nextInt();
+	
+	System.out.println("Binar: " +Integer.toBinaryString(n));
+	System.out.println("Octal: " +Integer.toOctalString(n)); 	
+	System.out.println("Hexazecimal: " +Integer.toHexString(n)); 
+		
+}
+}
